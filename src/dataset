@@ -1,0 +1,821 @@
+{
+    "responseCode": 0,
+    "match": {
+        "id": "7guiizddobmjb28yptfeghcoa",
+        "description": "Germany vs France",
+        "date": "2022-07-27T19:00:00.000Z",
+        "contestant": [
+            {
+                "id": "x0vuldayagbmwazqjgbozu0v",
+                "name": "Germany",
+                "shortName": "Germany",
+                "officialName": "Germany",
+                "code": "GER",
+                "position": "home",
+                "country": {
+                    "id": "36min0qztu8eydwvpv8t1is0m",
+                    "name": "Germany"
+                }
+            },
+            {
+                "id": "185xqd7s06sm2t85sxzfkrl",
+                "name": "France",
+                "shortName": "France",
+                "officialName": "France",
+                "code": "FRA",
+                "position": "away",
+                "country": {
+                    "id": "7gww28djs405rfga69smki84o",
+                    "name": "France"
+                }
+            }
+        ],
+        "status": "Played",
+        "prompts": [],
+        "insights": [],
+        "last5": {
+            "home": [],
+            "away": []
+        },
+        "form": {
+            "home": [],
+            "away": []
+        },
+        "meta": {
+            "coverageLevel": "13",
+            "tournamentCalendar": {
+                "id": "eyxzpznixuvpd11y5uiu6fdyi",
+                "name": "2022 England"
+            },
+            "competition": {
+                "id": "43029a6fvhou87zehkd5u8fyt",
+                "name": "UEFA Women's Championship",
+                "stage": "Semi-finals"
+            },
+            "venue": {
+                "id": "9ngzixy5f27eoslxg5ucfjgji",
+                "name": "Stadium mk"
+            }
+        },
+        "liveData": {
+            "matchDetails": {
+                "periodId": 14,
+                "matchStatus": "Played",
+                "winner": "home",
+                "matchLengthMin": 95,
+                "matchLengthSec": 24,
+                "period": [
+                    {
+                        "id": 1,
+                        "start": "2022-07-27T19:01:16Z",
+                        "end": "2022-07-27T19:46:36Z",
+                        "lengthMin": 45,
+                        "lengthSec": 20
+                    },
+                    {
+                        "id": 2,
+                        "start": "2022-07-27T20:01:32Z",
+                        "end": "2022-07-27T20:51:36Z",
+                        "lengthMin": 50,
+                        "lengthSec": 4
+                    }
+                ],
+                "scores": {
+                    "ht": {
+                        "home": 1,
+                        "away": 1
+                    },
+                    "ft": {
+                        "home": 2,
+                        "away": 1
+                    },
+                    "total": {
+                        "home": 2,
+                        "away": 1
+                    }
+                },
+                "endDate": "2022-07-27T20:51:36.000Z"
+            },
+            "goal": [
+                {
+                    "contestantId": "x0vuldayagbmwazqjgbozu0v",
+                    "periodId": 1,
+                    "timeMin": 40,
+                    "timeMinSec": "39:08",
+                    "timestamp": "2022-07-27T19:40:24Z",
+                    "type": "G",
+                    "scorerId": "f4g9co8i52ygweie4jjnvja39",
+                    "scorerName": "A. Popp",
+                    "assistPlayerId": "6c9ed4z6hw7s5v8c9631algid",
+                    "assistPlayerName": "S. Huth"
+                },
+                {
+                    "contestantId": "x0vuldayagbmwazqjgbozu0v",
+                    "periodId": 1,
+                    "timeMin": 44,
+                    "timeMinSec": "43:58",
+                    "timestamp": "2022-07-27T19:45:15Z",
+                    "type": "OG",
+                    "scorerId": "3loe8qn8nalk7liisl2hx891x",
+                    "scorerName": "M. Frohms"
+                },
+                {
+                    "contestantId": "x0vuldayagbmwazqjgbozu0v",
+                    "periodId": 2,
+                    "timeMin": 76,
+                    "timeMinSec": "75:12",
+                    "timestamp": "2022-07-27T20:31:45Z",
+                    "type": "G",
+                    "scorerId": "f4g9co8i52ygweie4jjnvja39",
+                    "scorerName": "A. Popp",
+                    "assistPlayerId": "6c9ed4z6hw7s5v8c9631algid",
+                    "assistPlayerName": "S. Huth"
+                }
+            ],
+            "card": [
+                {
+                    "contestantId": "185xqd7s06sm2t85sxzfkrl",
+                    "periodId": 1,
+                    "timeMin": 21,
+                    "timeMinSec": "20:11",
+                    "timestamp": "2022-07-27T19:21:27Z",
+                    "type": "YC",
+                    "playerId": "7l3val0z7xwpaptf5ebgimnyt",
+                    "playerName": "S. Toletti"
+                },
+                {
+                    "contestantId": "185xqd7s06sm2t85sxzfkrl",
+                    "periodId": 2,
+                    "timeMin": 56,
+                    "timeMinSec": "55:43",
+                    "timestamp": "2022-07-27T20:12:15Z",
+                    "type": "YC",
+                    "playerId": "f30p9xqwupzhhiitqubpi79bd",
+                    "playerName": "S. Bacha"
+                },
+                {
+                    "contestantId": "x0vuldayagbmwazqjgbozu0v",
+                    "periodId": 2,
+                    "timeMin": 74,
+                    "timeMinSec": "73:39",
+                    "timestamp": "2022-07-27T20:30:12Z",
+                    "type": "YC",
+                    "playerId": "4e5uudlm9l34xd07i6dlus6ax",
+                    "playerName": "G. Gwinn"
+                },
+                {
+                    "contestantId": "x0vuldayagbmwazqjgbozu0v",
+                    "periodId": 2,
+                    "timeMin": 94,
+                    "timeMinSec": "93:08",
+                    "timestamp": "2022-07-27T20:49:41Z",
+                    "type": "YC",
+                    "playerId": "9lt9pjnkuty7j6uwd5cvctwbt",
+                    "playerName": "L. Oberdorf"
+                }
+            ],
+            "substitute": [
+                {
+                    "periodId": 2,
+                    "timeMin": 46,
+                    "timeMinSec": "45:00",
+                    "timestamp": "2022-07-27T20:01:22Z",
+                    "playerOnId": "f30p9xqwupzhhiitqubpi79bd",
+                    "playerOnName": "S. Bacha",
+                    "playerOffId": "ct4fyrkcvk3i01xiz1wpsyuw9",
+                    "playerOffName": "M. Malard"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 61,
+                    "timeMinSec": "60:17",
+                    "timestamp": "2022-07-27T20:16:50Z",
+                    "playerOnId": "3uxijnhp1ibbqm6e4lfivq8k5",
+                    "playerOnName": "C. Matéo",
+                    "playerOffId": "3gu9gaz6w7eq79qnaqj3b7jdh",
+                    "playerOffName": "D. Cascarino"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 68,
+                    "timeMinSec": "67:56",
+                    "timestamp": "2022-07-27T20:24:29Z",
+                    "playerOnId": "3uyzu7kyh7oe0ahcu7o22pfit",
+                    "playerOnName": "L. Dallmann",
+                    "playerOffId": "a5d0iik8dqj6oy803mvi4n1sl",
+                    "playerOffName": "L. Magull"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 69,
+                    "timeMinSec": "68:07",
+                    "timestamp": "2022-07-27T20:24:40Z",
+                    "playerOnId": "692xxz6qlvbxhspozloeujt9l",
+                    "playerOnName": "S. Lohmann",
+                    "playerOffId": "407696aey55f3v0iy9xcr9plh",
+                    "playerOffName": "S. Däbritz"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 80,
+                    "timeMinSec": "79:22",
+                    "timestamp": "2022-07-27T20:35:55Z",
+                    "playerOnId": "1rsg1y7lx0ruqcwgj6c6oovdh",
+                    "playerOnName": "O. Sarr",
+                    "playerOffId": "7l3val0z7xwpaptf5ebgimnyt",
+                    "playerOffName": "S. Toletti"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 81,
+                    "timeMinSec": "80:48",
+                    "timestamp": "2022-07-27T20:37:21Z",
+                    "playerOnId": "1knjymb11ziv7sq5m1f4tdwwl",
+                    "playerOnName": "S. Doorsoun",
+                    "playerOffId": "8g7i716knbylzqefolzb7l2vp",
+                    "playerOffName": "M. Hegering"
+                },
+                {
+                    "periodId": 2,
+                    "timeMin": 91,
+                    "timeMinSec": "90:16",
+                    "timestamp": "2022-07-27T20:46:48Z",
+                    "playerOnId": "8ex4lsveeyet8r5aja1gjh1hx",
+                    "playerOnName": "T. Waßmuth",
+                    "playerOffId": "6c9ed4z6hw7s5v8c9631algid",
+                    "playerOffName": "S. Huth"
+                }
+            ],
+            "lineups": {
+                "home": {
+                    "teamId": "x0vuldayagbmwazqjgbozu0v",
+                    "teamName": "Germany",
+                    "first11": [
+                        {
+                            "id": "3loe8qn8nalk7liisl2hx891x",
+                            "name": "M. Frohms",
+                            "position": "Goalkeeper",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 37,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "cbofbntctfuhr1vqpn7eywt05",
+                            "name": "F. Rauch",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 26,
+                                "tackles": 4
+                            }
+                        },
+                        {
+                            "id": "8g7i716knbylzqefolzb7l2vp",
+                            "name": "M. Hegering",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 43,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "eyx4psuhprqtodl08iimdwb11",
+                            "name": "K. Hendrich",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 48,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "4e5uudlm9l34xd07i6dlus6ax",
+                            "name": "G. Gwinn",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 34,
+                                "tackles": 2
+                            }
+                        },
+                        {
+                            "id": "407696aey55f3v0iy9xcr9plh",
+                            "name": "S. Däbritz",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 29,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "9lt9pjnkuty7j6uwd5cvctwbt",
+                            "name": "L. Oberdorf",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 19,
+                                "tackles": 9
+                            }
+                        },
+                        {
+                            "id": "a5d0iik8dqj6oy803mvi4n1sl",
+                            "name": "L. Magull",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 1,
+                                "passes": 23,
+                                "tackles": 2
+                            }
+                        },
+                        {
+                            "id": "6c9ed4z6hw7s5v8c9631algid",
+                            "name": "S. Huth",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 2,
+                                "shotsOnTarget": 0,
+                                "passes": 16,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "f4g9co8i52ygweie4jjnvja39",
+                            "name": "A. Popp",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 3,
+                                "shotsOnTarget": 3,
+                                "passes": 13,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "elrnwzbk985f5j49tn9gg9rai",
+                            "name": "J. Brand",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 2,
+                                "shotsOnTarget": 0,
+                                "passes": 16,
+                                "tackles": 3
+                            }
+                        }
+                    ],
+                    "subs": [
+                        {
+                            "id": "4lfl3qipc5sf2b8cec6l43ap5",
+                            "name": "N. Anyomi",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "6fi5hacjc8lj8zej0d2lfq66t",
+                            "name": "A. Berger",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "3uyzu7kyh7oe0ahcu7o22pfit",
+                            "name": "L. Dallmann",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 3,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "1knjymb11ziv7sq5m1f4tdwwl",
+                            "name": "S. Doorsoun",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 2,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "eq5z0yyr2uh1fvs5v2v8zipjp",
+                            "name": "L. Freigang",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "90j0tep6q5ekv8r9pfwx3fbvt",
+                            "name": "S.  Kleinherne",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "6l7cq8gkjb8r4i50vsd4xoo2x",
+                            "name": "L. Lattwein",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "692xxz6qlvbxhspozloeujt9l",
+                            "name": "S. Lohmann",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 4,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "ak3tcm7w4qotjwi1f3mkljb9x",
+                            "name": "A. Schult",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "bwhwthiud4nqvdjy8rq1gcdsl",
+                            "name": "L. Schüller",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "8ex4lsveeyet8r5aja1gjh1hx",
+                            "name": "T. Waßmuth",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        }
+                    ],
+                    "stats": [
+                        {
+                            "fh": "5",
+                            "sh": "6",
+                            "type": "totalScoringAtt",
+                            "value": "11"
+                        },
+                        {
+                            "fh": "3",
+                            "sh": "1",
+                            "type": "ontargetScoringAtt",
+                            "value": "4"
+                        },
+                        {
+                            "fh": "3",
+                            "sh": "1",
+                            "type": "wonCorners",
+                            "value": "4"
+                        },
+                        {
+                            "fh": "51.1",
+                            "sh": "49.4",
+                            "type": "possessionPercentage",
+                            "value": "50.3"
+                        },
+                        {
+                            "fh": "0",
+                            "sh": "2",
+                            "type": "totalYellowCard",
+                            "value": "2"
+                        }
+                    ]
+                },
+                "away": {
+                    "teamId": "185xqd7s06sm2t85sxzfkrl",
+                    "teamName": "France",
+                    "first11": [
+                        {
+                            "id": "czmpp6e2oo276u9prac16le51",
+                            "name": "P. Peyraud-Magnin",
+                            "position": "Goalkeeper",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 12,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "7add1fkvvxb1v573fobgh1ryt",
+                            "name": "S. Karchaoui",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 38,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "3bo8lbyohd3djey9pbd08fvf9",
+                            "name": "W. Renard",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 2,
+                                "shotsOnTarget": 1,
+                                "passes": 40,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "b3h9p3gomjqttiuz0cxv2nh79",
+                            "name": "G. Mbock Bathy",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 38,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "6ypmyozp8zmq4tk36n49oz5xx",
+                            "name": "È. Périsset",
+                            "position": "Defender",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 30,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "1j5u2majmm2vnsgxscl9kjzyt",
+                            "name": "G. Geyoro",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 19,
+                                "tackles": 2
+                            }
+                        },
+                        {
+                            "id": "dll89ri6yl7ufipj37pyfmzmd",
+                            "name": "C. Bilbault",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 2,
+                                "shotsOnTarget": 0,
+                                "passes": 31,
+                                "tackles": 4
+                            }
+                        },
+                        {
+                            "id": "7l3val0z7xwpaptf5ebgimnyt",
+                            "name": "S. Toletti",
+                            "position": "Midfielder",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 30,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "3gu9gaz6w7eq79qnaqj3b7jdh",
+                            "name": "D. Cascarino",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 20,
+                                "tackles": 1
+                            }
+                        },
+                        {
+                            "id": "ct4fyrkcvk3i01xiz1wpsyuw9",
+                            "name": "M. Malard",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 10,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "dp5zny5ls8ys3ml75himru4et",
+                            "name": "K. Diani",
+                            "position": "Striker",
+                            "stats": {
+                                "shots": 2,
+                                "shotsOnTarget": 1,
+                                "passes": 19,
+                                "tackles": 1
+                            }
+                        }
+                    ],
+                    "subs": [
+                        {
+                            "id": "f30p9xqwupzhhiitqubpi79bd",
+                            "name": "S. Bacha",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 5,
+                                "shotsOnTarget": 0,
+                                "passes": 10,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "dm9vc2mqtbb982sx6kkd992ax",
+                            "name": "S. Baltimore",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "alr6k5xokhqe1xi6a5kdyj7x1",
+                            "name": "M. Chavas",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "stp0u46f1xc7a2mgvbkoy76x",
+                            "name": "H. Cissoko",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "dzfr9ktjmxqj2eh2xibt7konp",
+                            "name": "K. Dali",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "3eb2tx4nx4etwvuo3bnnl3lk9",
+                            "name": "J. Lerond",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "3uxijnhp1ibbqm6e4lfivq8k5",
+                            "name": "C. Matéo",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 1,
+                                "shotsOnTarget": 0,
+                                "passes": 5,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "80dr0hzhre13aaavd0r4udpl",
+                            "name": "E. Palis",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "1rsg1y7lx0ruqcwgj6c6oovdh",
+                            "name": "O. Sarr",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 4,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "6yh4l888isxggjgd4a6p4ss0l",
+                            "name": "M. Torrent",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        },
+                        {
+                            "id": "1co13krvtz3b1p9m9038kpadx",
+                            "name": "A. Tounkara",
+                            "position": "Substitute",
+                            "stats": {
+                                "shots": 0,
+                                "shotsOnTarget": 0,
+                                "passes": 0,
+                                "tackles": 0
+                            }
+                        }
+                    ],
+                    "stats": [
+                        {
+                            "fh": "1",
+                            "sh": "1",
+                            "type": "totalYellowCard",
+                            "value": "2"
+                        },
+                        {
+                            "fh": "48.9",
+                            "sh": "50.6",
+                            "type": "possessionPercentage",
+                            "value": "49.7"
+                        },
+                        {
+                            "fh": "0",
+                            "sh": "2",
+                            "type": "ontargetScoringAtt",
+                            "value": "2"
+                        },
+                        {
+                            "fh": "3",
+                            "sh": "11",
+                            "type": "totalScoringAtt",
+                            "value": "14"
+                        },
+                        {
+                            "fh": "1",
+                            "sh": "2",
+                            "type": "wonCorners",
+                            "value": "3"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "betBuilderURL": "https://mobile.bet365.com/#/AC/B1/C1/D8/E122772631/F3/G0/H0/I99?affiliateCode=365_916378",
+    "givemeodds": [],
+    "boosts": [],
+    "markets": []
+}
