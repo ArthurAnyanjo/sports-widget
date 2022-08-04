@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const FullTimeButton = (props) => {
+const SecondHalfButton = (props) => {
   const [isShown, setIsShown] = useState(false);
   const [possesionH, setPossessionH] = useState([]);
   const [possesionA, setPossessionA] = useState([]);
@@ -19,14 +19,14 @@ const FullTimeButton = (props) => {
       )
       .then((res) => {
         console.log(res.data);
-        setPossessionH(res.data.match.liveData.lineups.home.stats[3].value);
-        setPossessionA(res.data.match.liveData.lineups.away.stats[1].value);
-        setShotsH(res.data.match.liveData.lineups.home.stats[0].value);
-        setShotsA(res.data.match.liveData.lineups.away.stats[3].value);
-        setShotsHTar(res.data.match.liveData.lineups.home.stats[1].value);
-        setShotsATar(res.data.match.liveData.lineups.away.stats[2].value);
-        setCornersH(res.data.match.liveData.lineups.home.stats[2].value);
-        setCornersA(res.data.match.liveData.lineups.away.stats[4].value);
+        setPossessionH(res.data.match.liveData.lineups.home.stats[3].sh);
+        setPossessionA(res.data.match.liveData.lineups.away.stats[1].sh);
+        setShotsH(res.data.match.liveData.lineups.home.stats[0].sh);
+        setShotsA(res.data.match.liveData.lineups.away.stats[3].sh);
+        setShotsHTar(res.data.match.liveData.lineups.home.stats[1].sh);
+        setShotsATar(res.data.match.liveData.lineups.away.stats[2].sh);
+        setCornersH(res.data.match.liveData.lineups.home.stats[2].sh);
+        setCornersA(res.data.match.liveData.lineups.away.stats[4].sh);
       })
       .catch((err) => {
         console.log(err);
@@ -34,8 +34,6 @@ const FullTimeButton = (props) => {
   };
 
   useEffect(() => getData(), []);
-
-  
 
   const handleClick = event => {
 
@@ -46,7 +44,7 @@ const FullTimeButton = (props) => {
     <div>
       <button className="addButton" onClick={handleClick}>{props.text}</button>
 
-      {isShown && (
+      {isShown &&  (
         <div className="stats">
           <p className="widget-words">Possesion</p>
           <progress className="home-progress" value={possesionH} max = {100}>{possesionH}50%</progress>
@@ -68,4 +66,4 @@ const FullTimeButton = (props) => {
     </div>
   );
 }
-export {FullTimeButton};
+export {SecondHalfButton};
