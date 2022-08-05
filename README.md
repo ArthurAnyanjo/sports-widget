@@ -8,4 +8,4 @@ A widget that displays data pulled from an API in a useful way for the user, in 
 - Axios
 
 ### Live Website
-http://epldashboard2-env.eba-2nxc6gyk.us-east-1.elasticbeanstalk.com/#/
+https://spectacular-marshmallow-43eb77.netlify.app
