@@ -72,7 +72,6 @@ const FullTimeButton = (props) => {
           <progress className="home-progress" value={cornerH} max ={10}></progress>
           <p className="away-words">{cornerA}</p>
           <progress className="away-progres" value={cornerA} max ={10}></progress>
-          
           </div>
       )}
     </div>
