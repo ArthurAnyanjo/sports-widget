@@ -13,7 +13,8 @@ function App() {
   const [competition, setCompetition] = useState([]);
   const [scoreH, setScoreH] = useState([]);
   const [scoreA, setScoreA] = useState([]);
-  //const [HomeTeam, setHomeTeam] = useState([]);
+  const [HomeTeam, setHomeTeam] = useState([]);
+  const [AwayTeam, setAwayTeam] = useState([]);
 
 
 
@@ -23,11 +24,12 @@ function App() {
         "https://odds-api.dev.checkd-dev.com/dev/smartacca/fixtures/7guiizddobmjb28yptfeghcoa/preview"
       )
       .then((res) => {
-        console.log(res);
+        
         setCompetition(res.data.match.meta.competition.name);
         setScoreH(res.data.match.liveData.matchDetails.scores.total.home);
         setScoreA(res.data.match.liveData.matchDetails.scores.total.away);
-       // setHomeTeam(res.data.match.contestant.name[id])
+        setHomeTeam(res.data.match.contestant[0].name)
+        setAwayTeam(res.data.match.contestant[1].name)
       })
       .catch((err) => {
         console.log(err);
@@ -57,9 +59,8 @@ function App() {
                 width="75"
                 height="75"
               ></img>
-              Germany
+              {HomeTeam}
             </h1>
-            <p>VS</p>
             <h1>
               <img
                 src="https://cdn.fantasyiteam.com/bethub/teams/150x150/185xqd7s06sm2t85sxzfkrl.png"
@@ -67,11 +68,11 @@ function App() {
                 width="75"
                 height="75"
               ></img>
-              France
+              {AwayTeam}
             </h1>
             <div className="score">
               <p>
-                FT Score: {scoreH} : {scoreA}{" "}
+                FT Score: {scoreH} : {scoreA}
               </p>
             </div>
           </div>

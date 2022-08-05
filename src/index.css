@@ -18,12 +18,11 @@ code {
     monospace;
 }
 
-p {
+p{
   font-size: 1.0rem;
 }
 h1 {
   font-size: 2rem;
-  
 }
 .App {
   width: 100%;
@@ -115,12 +114,14 @@ li a:hover:not(.active) {
 h2 {
   text-align: center;
   padding-top: 25px;
-  font-size: 3rem;
+  font-size: 1.6rem;
+  font-family:'fantasy';
 }
 .competition p {
   font-size: 1rem;
   padding-bottom: 10px;
-  font-weight: bold;
+  font-weight: 600;
+
 }
 .match-info {
   padding-top: 25px;
@@ -195,25 +196,40 @@ h2 {
 }
 p.widget-words {
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: 500;
 }
-progress[value] {
-  width: 250px;
-  height: 20px;
+progress[value]{
+  -webkit-appearance: none;
+   appearance: none;
   margin: 3px;
+  text-align: center;
+  position: relative;
+}
+progress[value]:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  vertical-align: 0;
+  
+  position:absolute;
+  left:0;
+  right:0;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
-progress.home-progress {
-}
-progress.away-progress {
-}
-.home-per {
-  font-size: 0.7rem;
-  float: left;
-  margin-left: 80px;
-}
-.away-per {
-  font-size: 0.7rem;
-  float: right;
-  margin-right: 80px;
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, blue,red);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
 }

@@ -18,7 +18,7 @@ const FullTimeButton = (props) => {
         "https://odds-api.dev.checkd-dev.com/dev/smartacca/fixtures/7guiizddobmjb28yptfeghcoa/preview"
       )
       .then((res) => {
-        console.log(res.data);
+    
         setPossessionH(res.data.match.liveData.lineups.home.stats[3].value);
         setPossessionA(res.data.match.liveData.lineups.away.stats[1].value);
         setShotsH(res.data.match.liveData.lineups.home.stats[0].value);
@@ -48,8 +48,9 @@ const FullTimeButton = (props) => {
 
       {isShown && (
         <div className="stats">
+          
           <p className="widget-words">Possesion</p>
-          <progress className="home-progress" value={possesionH} max = {100}>{possesionH}50%</progress>
+          <progress className="home-progress" data-label={possesionH} value={possesionH} max = {100}>{possesionH}</progress>
           <progress className="away-progress" value={possesionA} max = {100}>{possesionA}%</progress>
 
           <p className="widget-words">Shots</p>
@@ -63,6 +64,7 @@ const FullTimeButton = (props) => {
           <p className="widget-words">Corners</p>
           <progress className="home-progress" value={cornerH} max ={10}></progress>
           <progress className="away-progres" value={cornerA} max ={10}></progress>
+          
           </div>
       )}
     </div>

@@ -18,7 +18,7 @@ const SecondHalfButton = (props) => {
         "https://odds-api.dev.checkd-dev.com/dev/smartacca/fixtures/7guiizddobmjb28yptfeghcoa/preview"
       )
       .then((res) => {
-        console.log(res.data);
+        
         setPossessionH(res.data.match.liveData.lineups.home.stats[3].sh);
         setPossessionA(res.data.match.liveData.lineups.away.stats[1].sh);
         setShotsH(res.data.match.liveData.lineups.home.stats[0].sh);
