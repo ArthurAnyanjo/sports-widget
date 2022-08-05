@@ -102,7 +102,7 @@ function App() {
             <div className="componentButtons">
               <FullTimeButton onClick={addFullTime} text="Full Time" />
                
-               <HalfTimeButton onClick={addHalfTime} text="Half Time" />
+               <HalfTimeButton onClick={addHalfTime} text="First Half" />
 
                <SecondHalfButton onClick={addSecondHalf} text="Second Half" />
             </div>

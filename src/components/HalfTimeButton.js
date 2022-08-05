@@ -46,21 +46,30 @@ const HalfTimeButton = (props) => {
 
       {isShown &&  (
         <div className="stats">
-          <p className="widget-words">Possesion</p>
-          <progress className="home-progress" value={possesionH} max = {100}>{possesionH}50%</progress>
+           <p className="widget-words">Possesion</p>
+          <p className="home-words">{possesionH}%</p>
+          <progress className="home-progress" value={possesionH} max = {100}>{possesionH}</progress>
+          <p className="away-words">{possesionA}%</p>
           <progress className="away-progress" value={possesionA} max = {100}>{possesionA}%</progress>
 
           <p className="widget-words">Shots</p>
+          <p className="home-words">{shotsH}</p>
           <progress className="home-progress" value={shotsH} max = {20}></progress>
+          <p className="away-words">{shotsA}</p>
           <progress className="away-progres" value={shotsA} max ={20}></progress>
 
           <p className="widget-words">Shots on Target</p>
+          <p className="home-words">{shotsHTar}</p>
           <progress className="home-progress" value={shotsHTar} max ={10}></progress>
+          <p className="away-words">{shotsATar}</p>
           <progress className="away-progres" value={shotsATar} max ={10}></progress>
 
           <p className="widget-words">Corners</p>
+          <p className="home-words">{cornerH}</p>
           <progress className="home-progress" value={cornerH} max ={10}></progress>
+          <p className="away-words">{cornerA}</p>
           <progress className="away-progres" value={cornerA} max ={10}></progress>
+          
           </div>
       )}
     </div>

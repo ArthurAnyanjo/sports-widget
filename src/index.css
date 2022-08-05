@@ -198,6 +198,14 @@ p.widget-words {
   font-size: 0.9rem;
   font-weight: 500;
 }
+p.home-words{
+  float: left;
+
+}
+p.away-words{
+float: right;
+
+}
 progress[value]{
   -webkit-appearance: none;
    appearance: none;
@@ -233,3 +241,4 @@ progress[value]::-webkit-progress-value {
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
+
