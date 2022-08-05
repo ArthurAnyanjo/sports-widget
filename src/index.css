@@ -24,6 +24,7 @@ p{
 }
 h1 {
   font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .App {
   width: 100%;
@@ -92,6 +93,9 @@ li a:hover:not(.active) {
   flex-direction: row;
   margin: 0;
   padding: 0;
+}
+img{
+ margin: 6px;
 }
 
 .NavBar ul li {
